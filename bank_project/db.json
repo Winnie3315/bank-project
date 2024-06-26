@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "18c8",
+      "email": "name@gmail.com",
+      "name": "name",
+      "surname": "surname",
+      "password": "Parol1234"
+    },
+    {
+      "id": "daecb22f-e06b-48c4-979a-c326b7648235",
+      "email": "name!231@gmail.com",
+      "name": "name",
+      "surname": "name",
+      "password": "Parol1234"
+    },
+    {
+      "id": "de3e5d29-ca6b-4bd0-8261-866f809a6b4c",
+      "email": "sobaka@gmail.com",
+      "name": "sobaka",
+      "surname": "durachki",
+      "password": "Parol1234"
+    }
+  ],
+  "wallets": [],
+  "transactions": []
+}
