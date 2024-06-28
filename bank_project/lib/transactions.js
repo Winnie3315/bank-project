@@ -18,6 +18,7 @@ export function reloadTransactions(arr, place) {
         wallet.innerHTML = item.wallet.name
         category.innerHTML = item.category
         sum.innerHTML = item.total
+        over.innerHTML = item.created_at
         console.log(item.created_at);
     }
 }

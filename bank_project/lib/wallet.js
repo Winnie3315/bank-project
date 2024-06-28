@@ -1,17 +1,24 @@
-function getRandomBg(){
-    let deg = Math.floor(Math.random() * 360)
-    function random(){
-        return Math.floor(Math.random() * 255)
+function getRandomBg() {
+    let deg = Math.floor(Math.random() * 360);
+
+    function random() {
+        return Math.floor(Math.random() * 255);
     }
-    let fst = random()
-    let sec = random()
-    let thrd = random()
 
-    const rgb = `rgb(${fst}, ${sec}, ${thrd})`
+    function getRandomColor() {
+        let r = random();
+        let g = random();
+        let b = random();
+        return `rgb(${r}, ${g}, ${b})`;
+    }
 
-    let gradient = `linear-gradient(${deg}deg, ${rgb}, ${rgb}, ${rgb})`
+    let color1 = getRandomColor();
+    let color2 = getRandomColor();
+    let color3 = getRandomColor();
 
-    return gradient
+    let gradient = `linear-gradient(${deg}deg, ${color1}, ${color2}, ${color3})`;
+
+    return gradient;
 }
 
 

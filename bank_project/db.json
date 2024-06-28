@@ -1,27 +1,111 @@
 {
   "users": [
     {
-      "id": "18c8",
+      "id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "email": "name@gmail.com",
-      "name": "name",
-      "surname": "surname",
-      "password": "Parol1234"
-    },
-    {
-      "id": "daecb22f-e06b-48c4-979a-c326b7648235",
-      "email": "name!231@gmail.com",
-      "name": "name",
-      "surname": "name",
-      "password": "Parol1234"
-    },
-    {
-      "id": "de3e5d29-ca6b-4bd0-8261-866f809a6b4c",
-      "email": "sobaka@gmail.com",
-      "name": "sobaka",
-      "surname": "durachki",
+      "name": "Zdarova",
+      "surname": "Durachki",
       "password": "Parol1234"
     }
   ],
-  "wallets": [],
-  "transactions": []
+  "wallets": [
+    {
+      "id": "7a476e69-217d-4a63-b682-bc6ec889b4b2",
+      "created_at": "28.06.2024",
+      "updated_at": "28.06.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "Zdarova",
+      "currency": "BTC",
+      "balance": 1e+46
+    },
+    {
+      "id": "a2b2c578-9f4c-4aa1-813a-990a2b84485c",
+      "created_at": "28.06.2024",
+      "updated_at": "28.06.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "name",
+      "currency": "HAMSTERCOIN",
+      "balance": "344444444444444444444444444444444444444444444400000000000000000"
+    },
+    {
+      "id": "fde82337-a91b-4080-be3c-06487b6ebc36",
+      "created_at": "28.06.2024",
+      "updated_at": "28.06.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "Visa",
+      "currency": "HAMSTERCOIN",
+      "balance": "2333333333333333333333333333333333333333333333330040"
+    },
+    {
+      "id": "3216b6fe-7317-487a-913a-ecbb85334bbd",
+      "created_at": "28.06.2024",
+      "updated_at": "28.06.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "Sobaka",
+      "currency": "USDT",
+      "balance": "122222222222222222222222222211111111111111111"
+    },
+    {
+      "id": "440ed793-0ef7-428d-b5e5-94c94960ca34",
+      "created_at": "28.06.2024",
+      "updated_at": "28.06.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "name",
+      "currency": "RUB",
+      "balance": "111111111111111111111111111111111111111111111111111111111111"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "eeb48d02-c394-4458-b6c2-b312e68d333d",
+      "created_at": "20240628, 15:13",
+      "updated_at": "15:13:33",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Zdarova",
+        "currency": "BTC",
+        "balance": 1e+46
+      },
+      "total": "1222111",
+      "category": "пожертвование",
+      "description": "для бомжей",
+      "wallet_id": "7a476e69-217d-4a63-b682-bc6ec889b4b2"
+    },
+    {
+      "id": "64777abd-16eb-453d-8849-a2b1ed502897",
+      "created_at": "20240628, 15:16",
+      "updated_at": "15:16:58",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Zdarova",
+        "currency": "BTC",
+        "balance": 1e+46
+      },
+      "total": "1",
+      "category": "пожертвование",
+      "description": "12121",
+      "wallet_id": "7a476e69-217d-4a63-b682-bc6ec889b4b2"
+    },
+    {
+      "id": "7c91b4f5-d877-46f8-824f-cb599aad7b19",
+      "created_at": "20240628, 15:17",
+      "updated_at": "15:17:35",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Zdarova",
+        "currency": "BTC",
+        "balance": 1e+46
+      },
+      "total": "12",
+      "category": "awd",
+      "description": "для бомжей",
+      "wallet_id": "7a476e69-217d-4a63-b682-bc6ec889b4b2"
+    }
+  ]
 }

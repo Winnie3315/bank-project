@@ -21,3 +21,12 @@ export const postData = async (path, body) => {
         alert(e.message , 'error')
     }
 }
+export const patchData = async (path, body) => {
+    try {
+       const res = await axios.patch(baseURL + path, body)
+
+       return res
+    } catch(e) {
+       alert(e.message, 'error')
+    }
+}
