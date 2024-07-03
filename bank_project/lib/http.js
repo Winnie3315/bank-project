@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const baseURL = "http://localhost:8080"
+const baseURL = import.meta.env.VITE_BASE_URL
+const fixerURL = import.meta.env.VITE_PUBLIC_FIXER_URL
 
 
 export const getData = async (path) => {
@@ -28,5 +29,29 @@ export const patchData = async (path, body) => {
        return res
     } catch(e) {
        alert(e.message, 'error')
+    }
+}
+
+export const getSymbols = async (path) => {
+    const symbols = JSON.parse(localStorage.getItem('symbols'))
+
+    if(symbols) {
+        return symbols
+    }
+
+    try {
+        const res = await axios.get(fixerURL + path, {
+            headers: {
+                apikey: import.meta.env.VITE_API_KEY
+            }
+        })
+
+        if(res.status === 200 || res.status === 201) {
+            localStorage.setItem('symbols', JSON.stringify(res.data.symbols))
+            return res.data.symbols
+        }
+
+    } catch(e) {
+        alert(e.message, 'error')
     }
 }

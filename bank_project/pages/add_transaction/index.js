@@ -26,9 +26,8 @@ getData('/wallets?user_id=' + user.id)
     })
 
 select.onchange = (e) => {
-    const id = e.target.value
-        
-    const wallet = wallets.find(el => el.id === id)
+    const id = select.value
+    const wallet = wallets.find(item => item.id === id)
             
     if (wallet) {
         selected_wallet = wallet
@@ -36,13 +35,14 @@ select.onchange = (e) => {
         selected_wallet = null
     }
 }
+console.log(total_inp.value);
 
 total_inp.onkeyup = (e) => {
-    const val = e.target.value
-
+    const val = total_inp.value
+    console.log(val);
     if (!selected_wallet) {
         console.log("error");
-        e.target.classList.add('error_input')
+        total_inp.classList.add('error_input')
         return;
     }
 
@@ -50,7 +50,7 @@ total_inp.onkeyup = (e) => {
 
     const isValid = !isNaN(valNum) && valNum > 0 && valNum <= selected_wallet.balance;
 
-    e.target.classList.toggle('error_input', !isValid);
+    total_inp.classList.toggle('error_input', !isValid);
 }
 
 

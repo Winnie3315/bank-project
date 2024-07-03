@@ -6,7 +6,9 @@ let user = JSON.parse(localStorage.getItem('user'))
 const walletContainer = document.querySelector(".wallet-container")
 const btn = document.querySelector('.add')
 const email = document.querySelector(".email")
-reloadHeader(document.querySelector(".heaeder"))
+
+let body = document.querySelector('.header')
+reloadHeader(body, user.email)
 
 email.innerHTML = user.email
 

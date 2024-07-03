@@ -5,7 +5,7 @@ import { reloadWallet } from "./lib/wallet"
 let user = JSON.parse(localStorage.getItem('user'))
 
 let body = document.querySelector('.header')
-reloadHeader(body)
+reloadHeader(body, user.email)
 
 let user_view = document.querySelector('#user')
 let userSurname_view = document.querySelector('.user_sn')

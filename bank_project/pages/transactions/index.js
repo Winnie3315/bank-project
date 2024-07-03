@@ -6,8 +6,10 @@ const user = JSON.parse(localStorage.getItem('user'))
 const tbody = document.querySelector('tbody')
 const btn = document.querySelector(".addTbtn")
 const email = document.querySelector(".email")
-reloadHeader(document.querySelector(".heaeder"))
 
+let body = document.querySelector('.header')
+
+reloadHeader(body, user.email)
 email.innerHTML = user.email
 
 getData('/transactions?user_id=' + user.id)

@@ -25,7 +25,7 @@
       "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "name": "name",
       "currency": "HAMSTERCOIN",
-      "balance": "344444444444444444444444444444444444444444444400000000000000000"
+      "balance": 3.4444444444444446e+62
     },
     {
       "id": "fde82337-a91b-4080-be3c-06487b6ebc36",
@@ -34,7 +34,7 @@
       "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "name": "Visa",
       "currency": "HAMSTERCOIN",
-      "balance": "2333333333333333333333333333333333333333333333330040"
+      "balance": 2.0989877777777777e+51
     },
     {
       "id": "3216b6fe-7317-487a-913a-ecbb85334bbd",
@@ -53,6 +53,24 @@
       "name": "name",
       "currency": "RUB",
       "balance": "111111111111111111111111111111111111111111111111111111111111"
+    },
+    {
+      "id": "66cacf6b-06da-4681-bac8-e621195f6c49",
+      "created_at": "01.07.2024",
+      "updated_at": "01.07.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "BOMJ",
+      "currency": "Uzbekistan Som",
+      "balance": 0
+    },
+    {
+      "id": "48e74b89-0fe0-48f0-88ba-28677320a2de",
+      "created_at": "02.07.2024",
+      "updated_at": "02.07.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "nameOfHell",
+      "currency": "USD",
+      "balance": "911"
     }
   ],
   "transactions": [
@@ -106,6 +124,125 @@
       "category": "awd",
       "description": "для бомжей",
       "wallet_id": "7a476e69-217d-4a63-b682-bc6ec889b4b2"
+    },
+    {
+      "id": "eeec6178-fcee-4415-a06d-14ea98e99aec",
+      "created_at": "20240701, 18:58",
+      "updated_at": "18:58:07",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Visa",
+        "currency": "HAMSTERCOIN",
+        "balance": 2.211222222222222e+51
+      },
+      "total": "122111111111111111111111111111111111111111111111111",
+      "category": "пожертвование",
+      "description": "для бомжей",
+      "wallet_id": "fde82337-a91b-4080-be3c-06487b6ebc36"
+    },
+    {
+      "id": "2441d3e7-80e5-43c2-aef8-78de71e5b8d0",
+      "created_at": "20240701, 18:59",
+      "updated_at": "18:59:03",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Visa",
+        "currency": "HAMSTERCOIN",
+        "balance": 2.211221111111111e+51
+      },
+      "total": "1111111111111111111111111111111111111111111111",
+      "category": "1212323",
+      "description": "для бомжей",
+      "wallet_id": "fde82337-a91b-4080-be3c-06487b6ebc36"
+    },
+    {
+      "id": "d787c4dc-b3a7-4d55-b5b2-84ea51793e1c",
+      "created_at": "20240701, 18:59",
+      "updated_at": "18:59:23",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Visa",
+        "currency": "HAMSTERCOIN",
+        "balance": 2.21011e+51
+      },
+      "total": "1111111111111111111111111111111111111111111111111",
+      "category": "пожертвование",
+      "description": "12121",
+      "wallet_id": "fde82337-a91b-4080-be3c-06487b6ebc36"
+    },
+    {
+      "id": "cfc69340-32c0-4117-be8e-dd7956cd36a0",
+      "created_at": "20240701, 18:59",
+      "updated_at": "18:59:43",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Visa",
+        "currency": "HAMSTERCOIN",
+        "balance": 2.098998888888889e+51
+      },
+      "total": "111111111111111111111111111111111111111111111111111",
+      "category": "пожертвование",
+      "description": "12121",
+      "wallet_id": "fde82337-a91b-4080-be3c-06487b6ebc36"
+    },
+    {
+      "id": "540ccf2c-dc97-428d-aca6-dff2f5c9f55d",
+      "created_at": "20240701, 18:59",
+      "updated_at": "18:59:54",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Visa",
+        "currency": "HAMSTERCOIN",
+        "balance": 2.0989877777777777e+51
+      },
+      "total": "11111111111111111111111111111111111111111111111",
+      "category": "пожертвование",
+      "description": "12121",
+      "wallet_id": "fde82337-a91b-4080-be3c-06487b6ebc36"
+    },
+    {
+      "id": "cdff8e77-708c-4f42-b416-ec0a4af09bfc",
+      "created_at": "20240701, 19:1",
+      "updated_at": "19:01:53",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "01.07.2024",
+        "updated_at": "01.07.2024",
+        "name": "BOMJ",
+        "currency": "Uzbekistan Som",
+        "balance": 0
+      },
+      "total": "12",
+      "category": "auto",
+      "description": "для бомжей",
+      "wallet_id": "66cacf6b-06da-4681-bac8-e621195f6c49"
+    },
+    {
+      "id": "74907666-c09e-40aa-a7de-e7bc74e8ed64",
+      "created_at": "20240701, 19:22",
+      "updated_at": "19:22:39",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "name",
+        "currency": "HAMSTERCOIN",
+        "balance": 3.4444444444444446e+62
+      },
+      "total": "1222222222222222",
+      "category": "пожертвование",
+      "description": "для бомжей",
+      "wallet_id": "a2b2c578-9f4c-4aa1-813a-990a2b84485c"
     }
   ]
 }

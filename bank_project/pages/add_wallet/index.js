@@ -1,28 +1,20 @@
-import { postData } from "../../lib/http"
+import { getSymbols, postData } from "../../lib/http"
 
 const form = document.forms.namedItem("add_cardForm")
 const balance = document.querySelector("#balance")
 const user = JSON.parse(localStorage.getItem("user"))
 const select = document.querySelector("select")
 
-let arr = [
-    {
-        "USD": "United State Dollar"
-    },
-    {
-        "UZS": "Uzbekistan Som"
-    },
-    {
-        "EUR": "Europe"
-    },
-]
 
-for(let item of arr) {
-    let currency = Object.keys(item)[0]
-    let name = item[currency]
-    let opt = new Option(currency, name)
-    select.append(opt)
-}
+getSymbols("/symbols")
+    .then((symbols) => {
+        console.log('start');
+        for(let key in symbols) {
+            let opt = new Option(`${key} - ${symbols[key]}`, key)
+
+            select.append(opt)
+        }
+    })
 
 form.onsubmit = (e) => {
     e.preventDefault()

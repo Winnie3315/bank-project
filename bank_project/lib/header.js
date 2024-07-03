@@ -1,4 +1,4 @@
-export function reloadHeader(body){
+export function reloadHeader(body, email){
     const container = document.createElement("div")
     const header = document.createElement("header")
     const wrap = document.createElement('div')
@@ -31,7 +31,7 @@ export function reloadHeader(body){
     main.innerHTML = 'Главная'
     wallets.innerHTML = 'Мои кошельки'
     transactions.innerHTML = "Мои транзакции"
-    myEmail.innerHTML = 'alexadams@google.com'
+    myEmail.innerHTML = email
     leaveIcon.src = "../public/log-out (1) 1.png"
     leaveIcon.style.cursor = 'pointer'
 
