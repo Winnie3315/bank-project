@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1> <span class="leave"><a href="/">✘</a></span>
+            <div class="box">
+                <div data-tilt data-tilt-scale="1.1" class="deck">
+                    <div class="card">
+                        <div class="front face">
+                            <div class="top">
+                                <h3 class="card_name">Card Name</h3>
+                            </div>
+        
+                            <h2 class="card_balance">Balance</h2>
+                        </div>
+                        <div class="back face">
+                            <h1 class="card_back_name">Card Name</h1>
+                            <h3 class="currency">currency</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="payment-methods">
+            <h2>Wallets</h2>
+            <div class="method-box">
+                <div class="method">Visa *1234<br><small>Expires 12/24</small></div>
+                <div class="method">Mastercard *5678<br><small>Expires 06/25</small></div>
+                <div class="method">Amex *9012<br><small>Expires 09/26</small></div>
+                <div class="method">Apple Pay<br><small>Last used: 2023-04-20</small></div>
+            </div>
+            
+        </div>
+        <section class="second">
+            <div class="transaction-history">
+            <h2>Transaction History</h2>
+            <div class="chart">
+                <canvas id="transactionChart"></canvas>
+            </div>
+        </div>
+        <div class="currency-conversion">
+            <h2>Currency Conversion</h2>
+            <form>
+                <select id="currencyFrom">
+                    <option value="USD">USD</option>
+                </select>
+                <select id="currencyTo">
+                    <option value="EUR">EUR</option>
+                </select>
+                <input type="number" id="amount" value="100">
+                <button type="submit">Convert</button>
+            </form>
+        </div>
+        </section>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            VanillaTilt.init(document.querySelectorAll(".deck"), {
+                max: 25,
+                speed: 400,
+                scale: 1.1
+            });
+        });
+    </script>
+</body>
+</html>
+

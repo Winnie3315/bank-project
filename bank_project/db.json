@@ -6,6 +6,13 @@
       "name": "Zdarova",
       "surname": "Durachki",
       "password": "Parol1234"
+    },
+    {
+      "id": "a8c69a90-0bb5-40ed-9668-39d4280ba7f7",
+      "email": "timurFayziev@gmail.com",
+      "name": "Timur",
+      "surname": "Fayziev",
+      "password": "Timur1234"
     }
   ],
   "wallets": [
@@ -25,7 +32,7 @@
       "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "name": "name",
       "currency": "HAMSTERCOIN",
-      "balance": 3.4444444444444446e+62
+      "balance": 3.3333333333333335e+62
     },
     {
       "id": "fde82337-a91b-4080-be3c-06487b6ebc36",
@@ -43,7 +50,7 @@
       "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "name": "Sobaka",
       "currency": "USDT",
-      "balance": "122222222222222222222222222211111111111111111"
+      "balance": 1.2222e+44
     },
     {
       "id": "440ed793-0ef7-428d-b5e5-94c94960ca34",
@@ -70,7 +77,34 @@
       "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
       "name": "nameOfHell",
       "currency": "USD",
-      "balance": "911"
+      "balance": 811
+    },
+    {
+      "id": "0731bf24-91ab-4948-8210-66579cba00ad",
+      "created_at": "04.07.2024",
+      "updated_at": "04.07.2024",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "name": "gangsta",
+      "currency": "USD",
+      "balance": "12000000000"
+    },
+    {
+      "id": "19a90031-6330-42c1-9065-793d7aff81c0",
+      "created_at": "05.07.2024",
+      "updated_at": "05.07.2024",
+      "user_id": "a8c69a90-0bb5-40ed-9668-39d4280ba7f7",
+      "name": "Visa",
+      "currency": "USD",
+      "balance": 199999
+    },
+    {
+      "id": "32399d1a-1de5-483a-9782-fde5efe154ec",
+      "created_at": "05.07.2024",
+      "updated_at": "05.07.2024",
+      "user_id": "a8c69a90-0bb5-40ed-9668-39d4280ba7f7",
+      "name": "Zdarova",
+      "currency": "BOB",
+      "balance": "900000000000000000"
     }
   ],
   "transactions": [
@@ -243,6 +277,91 @@
       "category": "пожертвование",
       "description": "для бомжей",
       "wallet_id": "a2b2c578-9f4c-4aa1-813a-990a2b84485c"
+    },
+    {
+      "id": "32d141cf-cb7e-4650-a029-617841612a08",
+      "created_at": "20240704, 12:4",
+      "updated_at": "12:04:11",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "name",
+        "currency": "HAMSTERCOIN",
+        "balance": 3.3333333333333335e+62
+      },
+      "total": "11111111111111111111111111111111111111111111111111111111111111",
+      "category": "auto",
+      "description": "12121",
+      "wallet_id": "a2b2c578-9f4c-4aa1-813a-990a2b84485c"
+    },
+    {
+      "id": "424474b2-c4b4-4552-8005-4f021bf19169",
+      "created_at": "20240704, 12:5",
+      "updated_at": "12:05:10",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "02.07.2024",
+        "updated_at": "02.07.2024",
+        "name": "nameOfHell",
+        "currency": "USD",
+        "balance": 811
+      },
+      "total": "100",
+      "category": "awd",
+      "description": "12121",
+      "wallet_id": "48e74b89-0fe0-48f0-88ba-28677320a2de"
+    },
+    {
+      "id": "b4b6c7ce-8e07-4aa5-bc1f-aaca857d2fce",
+      "created_at": "20240704, 18:28",
+      "updated_at": "18:28:50",
+      "user_id": "12b094cd-723d-4981-8b26-d058fb1f241d",
+      "wallet": {
+        "created_at": "28.06.2024",
+        "updated_at": "28.06.2024",
+        "name": "Sobaka",
+        "currency": "USDT",
+        "balance": 1.2222e+44
+      },
+      "total": "2222222222222222222222211111111111111111",
+      "category": "пожертвование",
+      "description": "12121",
+      "wallet_id": "3216b6fe-7317-487a-913a-ecbb85334bbd"
+    },
+    {
+      "id": "6237a3be-1694-45d3-bb6f-c6bd887c7674",
+      "created_at": "20240705, 13:57",
+      "updated_at": "13:57:45",
+      "user_id": "a8c69a90-0bb5-40ed-9668-39d4280ba7f7",
+      "wallet": {
+        "created_at": "05.07.2024",
+        "updated_at": "05.07.2024",
+        "name": "Visa",
+        "currency": "USD",
+        "balance": 200000
+      },
+      "total": "100000",
+      "category": "покупка",
+      "description": "автомобиль",
+      "wallet_id": "19a90031-6330-42c1-9065-793d7aff81c0"
+    },
+    {
+      "id": "c0e90227-3627-4811-9ac8-c571fbb54c54",
+      "created_at": "20240705, 13:58",
+      "updated_at": "13:58:02",
+      "user_id": "a8c69a90-0bb5-40ed-9668-39d4280ba7f7",
+      "wallet": {
+        "created_at": "05.07.2024",
+        "updated_at": "05.07.2024",
+        "name": "Visa",
+        "currency": "USD",
+        "balance": 199999
+      },
+      "total": "1",
+      "category": "пожертвование",
+      "description": "для бомжей",
+      "wallet_id": "19a90031-6330-42c1-9065-793d7aff81c0"
     }
   ]
 }
