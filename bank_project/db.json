@@ -13,6 +13,13 @@
       "name": "Timur",
       "surname": "Fayziev",
       "password": "Timur1234"
+    },
+    {
+      "id": "80015533-9057-44c4-b363-813fad113fd7",
+      "email": "dragon@gmail.com",
+      "name": "dr",
+      "surname": "dragon",
+      "password": "Parol1234"
     }
   ],
   "wallets": [

@@ -46,14 +46,15 @@
         </div>
         <div class="currency-conversion">
             <h2>Currency Conversion</h2>
-            <form>
-                <select id="currencyFrom">
-                    <option value="USD">USD</option>
+            <form name="currencyForm">
+                <select name="currency" id="currencyFrom">
+                    
                 </select>
                 <select id="currencyTo">
-                    <option value="EUR">EUR</option>
+                    
                 </select>
                 <input type="number" id="amount" value="100">
+                <p class="result"></p>
                 <button type="submit">Convert</button>
             </form>
         </div>

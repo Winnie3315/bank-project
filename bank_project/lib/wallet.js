@@ -60,6 +60,10 @@ export function reloadMethod(arr, place){
         p.innerHTML = item.name
         balance.innerHTML = item.balance
 
+        div.onclick = () => {
+            location.assign('/pages/wallet/?id=' + item.id)
+        }
+
         div.append(p, balance)
         place.append(div)
     }
